@@ -23,8 +23,7 @@ import frc.robot.subsystems.Drivetrain;
  */
 public class Robot extends TimedRobot {
   public static OI oi;
-
-public static Drivetrain drivetrain;
+  public static Drivetrain drivetrain;
 
   Command autonomousCommand;
   SendableChooser<Command> chooser = new SendableChooser<>();
